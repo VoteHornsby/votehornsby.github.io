@@ -1,0 +1,20 @@
+{
+  "name": "votehornsby.github.io",
+  "version": "0.0.0",
+  "description": "votehornsby.github.io =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VoteHornsby/votehornsby.github.io.git"
+  },
+  "author": "Kaleb Hornsby <kaleb@horns.by> (http://kaleb.horns.by)",
+  "license": "Proprietary",
+  "readmeFilename": "README.md",
+  "gitHead": "08216acaa27834e38fd9380c71013b839cbbaf52"
+  "devDependencies": {
+    "bootstrap": "https://github.com/twitter/bootstrap.git/v2.3.1"
+  }
+}
