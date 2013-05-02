@@ -1,19 +1,6 @@
 @import url("//netdna.bootstrapcdn.com/bootswatch/2.3.1/cerulean/bootstrap.min.css");
 @import url("//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css");
 @import url("//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css");
-/*
-.subhead .row {
-  position:absolute;
-  top:0;
-}*/
-.subhead .social {
-  margin-top:3em;
-}
-.subhead .social .btn {
-  width:30px;
-}
-.subhead .title {
-}
 .subhead h1, .subhead .lead {
   padding-left:20px;
   text-shadow:
@@ -22,37 +9,49 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.subhead .nav-list {
-  margin-top:2em;
-}
-.subhead .nav-list li {
-  margin-top:15px;
-  margin-bottom:15px;
-}
-.subhead {
+.subhead .title {
   background-image:url('//lh6.googleusercontent.com/-uT_1hxZ8MeA/UYCA12qF_vI/AAAAAAAAADg/FPogR_trjWA/w1170-h663/photo.jpg');
   background-size:cover;
   background-position:center;
 }
-
-.subhead .row {
+.subhead h1 {
+  margin-top:0;
+}
+.navbar-inner {
+  border-radius:0;
+}
+.subhead hgroup {
+  background-color:rgba(0,0,0,.6);
+}
+.subhead .title {
   height:533px;
 }
+footer.well {
+  margin-bottom:0;
+  border:none;
+  border-radius:0;
+  box-shadow:none;
+}
+
 /* Large Desktop */
 @media (min-width: 1200px) {
-  .subhead .row {
+  .subhead .title {
     height:663px;
   }
 }
 /* Landscape phone to Desktop/Tablet */
 @media (max-width: 767px) {
-  .subhead .row {
+  .subhead hgroup {
+  }
+  .subhead .title {
     height:410px;
   }
 }
 /* Tablet to Desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  .subhead .row {
+  .subhead hgroup {
+  }
+  .subhead .title {
     height:410px;
   }
 }
